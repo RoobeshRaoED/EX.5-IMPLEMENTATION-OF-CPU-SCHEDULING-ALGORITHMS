@@ -70,7 +70,7 @@ printf("\n Average waiting time is %5.2f\n average tat is%5.2f",awt,atat); }
 ```
 ## OUTPUT:
 
-![]()
+![](1.png)
 
 ## RESULT: 
 
@@ -165,7 +165,7 @@ printf("\nAverage turn around time is %5.2f",att);
 ```
 ## OUTPUT:
 
-![]()
+![](2.1.png)
 
 ## RESULT: 
 
@@ -336,7 +336,7 @@ printf("\nAvg turn around time is %5.2f",atat);
 ```
 ## OUTPUT:
 
-![]()
+![](3.png)
 
 ## RESULT: 
 
@@ -447,7 +447,7 @@ printf("The average turn around time is: %5.2f",atat);
 ```
 ## OUTPUT:
 
-![]()
+![](4.1.png)
 
 ## RESULT: Priority Preemptive scheduling is implemented successfully.
 
@@ -544,7 +544,7 @@ printf("\n Average turn around time is %5.2f",att);
 ```
 ## OUTPUT:
 
-![]()
+![](4.2.png)
 
 ## RESULT: Priority Non-preemptive scheduling is implemented successfully.
 
