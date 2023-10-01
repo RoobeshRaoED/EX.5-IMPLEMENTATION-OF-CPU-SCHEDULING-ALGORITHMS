@@ -546,5 +546,7 @@ printf("\n Average turn around time is %5.2f",att);
 
 ![](4.2.png)
 
-## RESULT: Priority Non-preemptive scheduling is implemented successfully.
+## RESULT: 
+
+Priority Non-preemptive scheduling is implemented successfully.
 
