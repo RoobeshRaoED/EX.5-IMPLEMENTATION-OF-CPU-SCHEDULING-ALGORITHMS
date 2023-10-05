@@ -93,22 +93,31 @@ To implement Shortest Job First (SJF) Preemptive Scheduling
 ## ALGORITHM:
 
 Step 1: Start the process.
+
 Step 2: Accept the number of processes in the ready Queue.
+
 Step 3: For each process in the ready Q, assign the process id and accept the CPU burst
 time.
+
 Step 4: Start the Ready Q according the shortest Burst time by sorting according to
 lowest to highest burst time.
+
 Step 5: Set the waiting time of the first process as „0‟ and its turnaround time as its
 burst time.
+
 Step 6: For each process in the ready queue, calculate
 
   (a) Waiting time for process(n)= waiting time of process (n-1) + Burst time of
   process(n-1).
+  
   (b) Turn around time for Process(n)= waiting time of Process(n)+ Burst time
   for process(n).
+  
   (c) Average waiting time = Total waiting Time / Number of process.
+  
   (d) Average Turnaround time = Total Turnaround Time / Number of
   process.
+  
 Step 7: Stop the process.
 
 ## PROGRAM:
@@ -208,22 +217,31 @@ To implement Round Robin (RR) Scheduling
 ## ALGORITHM:
 
 Step 1: Start the process.
+
 Step 2: Accept the number of processes in the ready Queue and time quantum (or) time
 slice.
+
 Step 3: For each process in the ready Q, assign the process id and accept the CPU burst
 time.
+
 Step 4: Calculate the no. of time slices for each process where
 No. of time slice for process(n) = burst time process(n)/time slice.
+
 Step 5: If the burst time is less than the time slice then the no. of time slices =1.
+
 Step 6: Consider the ready queue is a circular Q, calculate
 
   (a) Waiting time for process(n) = waiting time of process(n-1)+ burst time of
   process(n-1 ) + the time difference in getting the CPU from process(n-1).
+  
   (b) Turn around time for process(n) = waiting time of process(n) + burst time
   of process(n)+ the time difference in getting CPU from process(n).
+  
   (c) Average waiting time = Total waiting Time / Number of process.
+  
   (d) Average Turnaround time = Total Turnaround Time / Number of
   process. 
+  
 Step 8: Stop the process.
 
 ## PROGRAM:
@@ -362,22 +380,31 @@ To implement Priority Preemptive Scheduling
 ## ALGORITHM:
 
 Step 1: Start the process.
+
 Step 2: Accept the number of processes in the ready Queue.
+
 Step 3: For each process in the ready Q, assign the process id and accept the CPU burst
 time.
+
 Step 4: Start the Ready Q according the priority number given to the processes by
 sorting according to the highest priority to lowest.
+
 Step 5: Set the waiting time of the first process as „0‟ and its turnaround time as its
 burst time.
+
 Step 6: For each process in the ready queue, calculate
 
   (a) Waiting time for process(n)= waiting time of process (n-1) + Burst time of
   process(n-1).
+  
   (b) Turn around time for Process(n)= waiting time of Process(n)+ Burst time
   for process(n).
+  
   (c) Average waiting time = Total waiting Time / Number of process.
+  
   (d) Average Turnaround time = Total Turnaround Time / Number of
   process. 
+  
 Step 7: Stop the process.
 
 ## PROGRAM:
@@ -472,22 +499,31 @@ To implement Priority Non-Preemptive Scheduling
 ## ALGORITHM:
 
 Step 1: Start the process.
+
 Step 2: Accept the number of processes in the ready Queue.
+
 Step 3: For each process in the ready Q, assign the process id and accept the CPU burst
 time.
+
 Step 4: Start the Ready Q according the priority number given to the processes by
 sorting according to the highest priority to lowest.
+
 Step 5: Set the waiting time of the first process as „0‟ and its turnaround time as its
 burst time.
+
 Step 6: For each process in the ready queue, calculate
 
   (a) Waiting time for process(n)= waiting time of process (n-1) + Burst time of
   process(n-1).
+  
   (b) Turn around time for Process(n)= waiting time of Process(n)+ Burst time
   for process(n).
+  
   (c) Average waiting time = Total waiting Time / Number of process.
+  
   (d) Average Turnaround time = Total Turnaround Time / Number of
   process. 
+  
 Step 7: Stop the process.
 
 
